@@ -3,6 +3,7 @@
 #define CONSOLE_UI_H
 
 #include "library_manager.h"
+
 #include <string>
 
 class ConsoleUI {
@@ -25,7 +26,7 @@ private:
   void handleBorrowBook();
   void handleReturnBook();
   void handleStatistics();
-  
+
   void displayBook(const Book& book);
   std::string readLine(const std::string& prompt);
   int readInt(const std::string& prompt);
